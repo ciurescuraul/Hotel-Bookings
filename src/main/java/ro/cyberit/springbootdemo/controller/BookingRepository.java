@@ -1,7 +1,8 @@
-package ro.cyberit.springbootdemo;
+package ro.cyberit.springbootdemo.controller;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import ro.cyberit.springbootdemo.model.HotelBooking;
 
 import java.util.List;
 

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6525bb2a-047c-4421-81e1-b4dd2226812e" name="Default Changelist" comment="Worked with SpringBoot Database Access">
-      <change afterPath="$PROJECT_DIR$/bookings.db.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_5_0.xml" beforeDir="false" />
+    <list default="true" id="6525bb2a-047c-4421-81e1-b4dd2226812e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookings.db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/bookings.db.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/BookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/DatabaseSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/DatabaseSeeder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springboot-demo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/controller/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/DatabaseSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/database/DatabaseSeeder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/HotelBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/cyberit/springbootdemo/model/HotelBooking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,10 +62,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HotelBooking" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="BookingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,7 +74,7 @@
       <module name="springboot-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.cyberit.springbootdemo.*" />
+          <option name="PATTERN" value="ro.cyberit.springbootdemo.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +107,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Worked with SpringBoot Database Access" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Custom_Plugin_Repositories" timestamp="1585172023540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="198" key="#Custom_Plugin_Repositories/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585172023540" />
     <state x="703" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585165446147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -112,6 +119,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585161142024" />
+    <state x="693" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585171836703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585171836703" />
     <state x="808" y="428" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585152833044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -128,26 +139,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585161990476" />
-    <state width="1921" height="381" key="GridCell.Tab.0.bottom" timestamp="1585165441494">
+    <state width="1921" height="187" key="GridCell.Tab.0.bottom" timestamp="1585173815572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="555" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585162626786" />
-    <state width="1921" height="381" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585165441494" />
-    <state width="1921" height="381" key="GridCell.Tab.0.center" timestamp="1585165441493">
+    <state width="1921" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585173815572" />
+    <state width="1921" height="187" key="GridCell.Tab.0.center" timestamp="1585173815572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="555" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585162626786" />
-    <state width="1921" height="381" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585165441493" />
-    <state width="1921" height="381" key="GridCell.Tab.0.left" timestamp="1585165441492">
+    <state width="1921" height="187" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585173815572" />
+    <state width="1921" height="187" key="GridCell.Tab.0.left" timestamp="1585173815572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="555" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585162626785" />
-    <state width="1921" height="381" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585165441492" />
-    <state width="1921" height="381" key="GridCell.Tab.0.right" timestamp="1585165441493">
+    <state width="1921" height="187" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585173815572" />
+    <state width="1921" height="187" key="GridCell.Tab.0.right" timestamp="1585173815572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1921" height="555" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585162626786" />
-    <state width="1921" height="381" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585165441493" />
+    <state width="1921" height="187" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585173815572" />
     <state width="1921" height="555" key="GridCell.Tab.1.bottom" timestamp="1585162626786">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -172,10 +183,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="218" key="NewModule_or_Project.wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585161636029" />
-    <state x="461" y="182" key="SettingsEditor" timestamp="1585152891472">
+    <state x="461" y="182" key="SettingsEditor" timestamp="1585172029201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="182" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585152891472" />
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585172029201" />
     <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1585165908014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

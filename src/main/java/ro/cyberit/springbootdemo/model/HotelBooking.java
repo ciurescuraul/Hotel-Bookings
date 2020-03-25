@@ -1,4 +1,4 @@
-package ro.cyberit.springbootdemo;
+package ro.cyberit.springbootdemo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

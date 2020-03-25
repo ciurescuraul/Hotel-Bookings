@@ -1,7 +1,8 @@
-package ro.cyberit.springbootdemo;
+package ro.cyberit.springbootdemo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import ro.cyberit.springbootdemo.model.HotelBooking;
 
 import java.util.List;
 

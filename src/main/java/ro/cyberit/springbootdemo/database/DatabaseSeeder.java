@@ -1,8 +1,10 @@
-package ro.cyberit.springbootdemo;
+package ro.cyberit.springbootdemo.database;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import ro.cyberit.springbootdemo.controller.BookingRepository;
+import ro.cyberit.springbootdemo.model.HotelBooking;
 
 import java.util.ArrayList;
 import java.util.List;
